@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+     background-color: black;/* Set theba background color to black */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    color: aliceblue;/* Set container height to 100% of viewport height */
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 70%; /* Adjust the maximum height of the image */
+    margin-bottom: 20px; /* Add margin to create space between image and password input */
+}
+
+input[type="password"] {
+    width: 200px; /* Adjust the width of the password input */
+    padding: 10px; /* Adjust the padding of the password input */
+    font-size: 16px; /* Adjust the font size of the password input */
+    color:black
+}
